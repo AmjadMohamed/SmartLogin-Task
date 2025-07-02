@@ -1,0 +1,46 @@
+/**********General**********/
+* {
+    --montserrat-font: "Montserrat", sans-serif;
+    font-family: var(--montserrat-font);
+}
+
+body{
+    background-color: #F9F7F7;
+}
+
+
+::selection{
+    background-color: #112D4E;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    border-bottom: 1px solid black;
+}
+
+/****************************/
+
+
+.backgroundContainer{
+    background-color: #F9F7F7;
+    width: 900px;
+    height: 400px;
+    box-shadow: 0 0 10px 0 #3F72AF;
+    margin:auto
+}
+
+.Button{
+    background: transparent;
+    border-color: #3F72AF;
+    transition: all 0.3s ease-in-out;
+}
+
+.Button:hover{
+    background-color: #3F72AF;
+    color: white;
+}
